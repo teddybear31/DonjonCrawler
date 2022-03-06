@@ -190,7 +190,6 @@ public class PlayerController : MonoBehaviour {
 
     public void SubitDesDegats(int degatsSubit)
     {
-        niveauVie -= degatsSubit;
         MiseAJourInfo();
     }
 }

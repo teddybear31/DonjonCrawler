@@ -138,11 +138,7 @@ public class GameController : MonoBehaviour
 
     public void TourDesCreatures()
     {
-        if (player.estACotéEnnemi)
-        {
-            player.SubitDesDegats(degatMonstre);
-        }
-
+        // A faire: lorsque le personnage est à coté d'un ennemi, le personnage doit subir des dégât.
     }
 
 
